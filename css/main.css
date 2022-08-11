@@ -1,0 +1,165 @@
+/* @import './css/reset.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+
+body {
+    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif ;
+    color: #56593D;
+    font-weight: 400;
+}
+
+.container {
+   max-width: 1330px;
+   padding-top: 54px;
+   position: relative;
+}
+
+.nagat__pannel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    
+    padding-right: 170px;
+    
+}
+
+.navi {
+    display: flex;
+    column-gap: 38px;
+    
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    color: #56593D;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    color: #56593d80;
+    transition: 0.2s ease;
+}
+
+.img {
+    display: flex;
+    column-gap: 21px;
+    
+    
+}
+
+
+.vk {
+    width: 32px;
+    transition: 0.3s ease;
+}
+
+.vk:hover {
+    transition: 0.3s ease;
+    transform: rotate(-360deg);
+}
+
+.bgr {
+    margin-top: 50px;
+    height: 1000px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('/img/header/bcg.png') ;
+	
+	position: relative;
+}
+
+.form__buy {
+    margin-top: 800px;
+    background-color: rgba(255, 255, 255, 0.712);
+    max-width: 500px;
+    min-height: 100px;
+    border-radius: 20px;
+    
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.buy {
+    margin-left: 180px;
+    background: linear-gradient(129.54deg, #9da173 15.57%, #56593D 95.03%), #FFFFFF;
+    border-radius: 100px;
+    padding: 13px 44px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.main {
+    width: 100%;
+}
+
+.main__text {
+    font-family: 'Jost';
+    text-align: center;
+    font-size: 57px;
+    margin: 0 auto; 
+    width: 1200px;
+}
+
+.before__text {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    margin: 0 auto;
+    position: relative;
+   
+}
+
+.katalog {
+    font-size: 16px;
+    background: url(/img/section/arrow.png) no-repeat right;
+    width: 85px;
+    
+}
+
+.about__text {
+    font-size: 16px;
+    background: url(/img/section/arrow.png) no-repeat right;
+    width: 85px;
+}
+
+.before__text a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+.smotry {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.swiper {
+    width: 1000px;
+    height: auto;
+  }
+
+.slider img {
+    width: auto;
+    height: auto;
+}
+
+.slider {
+    
+}

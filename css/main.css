@@ -222,9 +222,14 @@ a:hover {
 .card {
     box-shadow: 9px 5px 5px 1px rgba(9, 9, 9, 0.312);
     background: #E5E5E5;
-
+    border: 1px solid rgba(0, 0, 0, 0.034);
 }
 
 .card-title {
     font-weight: 700;
+}
+
+.btn {
+    background: linear-gradient(129.54deg, #9da173 15.57%, #303315 95.03%), #FFFFFF;
+    border: none;
 }

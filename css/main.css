@@ -93,7 +93,7 @@ a:hover {
 
 .buy {
     margin-left: 180px;
-    background: linear-gradient(129.54deg, #9da173 15.57%, #56593D 95.03%), #FFFFFF;
+    background: linear-gradient(129.54deg, #9da173 15.57%, #9daa2b 95.03%), #FFFFFF;
     border-radius: 100px;
     padding: 13px 44px;
     font-size: 20px;
@@ -162,4 +162,69 @@ a:hover {
 
 .slider {
     
+}
+
+.about__us {
+    display: flex;
+    
+    column-gap: 70px;
+    margin-top: 50px;
+}
+
+.left__cont {
+    width: 700px;
+}
+.right__cont {
+    
+    padding-top: 200px;
+    width: 700px;
+}
+
+.ogorod {
+    border-radius: 20px;
+}
+
+.dostavka {
+    display: flex;
+    
+    column-gap: 70px;
+    margin-top: 50px;
+}
+
+.left__cont2 {
+    width: 700px;
+    padding-top: 80px;
+}
+.right__cont2 {
+   
+    width: 700px;
+}
+
+.gazel {
+    border-radius: 20px;
+}
+
+.form__buy2 {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.339);
+    max-width: 500px;
+    min-height: 100px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.footer {
+    margin-top: 200px;
+    background: linear-gradient(129.54deg, #9da173 15.57%, #303315 95.03%), #FFFFFF;
+    height: 300px;
+}
+
+.card {
+    box-shadow: 9px 5px 5px 1px rgba(9, 9, 9, 0.312);
+    background: #E5E5E5;
+
+}
+
+.card-title {
+    font-weight: 700;
 }

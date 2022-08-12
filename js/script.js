@@ -5,7 +5,7 @@ const swiper = new Swiper('.swiper', {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "3",
-    initialSlide: 1,
+    initialSlide: 8,
     autoplay : {
       delay: 5000,
       disableOnInteraction: false,
@@ -37,6 +37,7 @@ const swiper = new Swiper('.swiper', {
     y: 0,
     z: 100,
 }});
+ScrollReveal().reveal('.bgr', {  distance: '200px', origin: 'bottom',  delay: 1200, easing: 'ease',});
 ScrollReveal().reveal('.main__text2', {  distance: '60px', origin: 'bottom',  delay: 700, easing: 'ease' });
 ScrollReveal().reveal('.katalog2', {  distance: '60px', origin: 'left',delay: 900, easing: 'ease-in'});
 ScrollReveal().reveal('.about__text2', {  distance: '60px', origin: 'right', delay: 900, easing: 'ease-in'});

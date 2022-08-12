@@ -1,5 +1,5 @@
 /* @import './css/reset.css'; */
-@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto:ital,wght@0,400;0,700;1,500&family=Ubuntu:ital,wght@1,500&display=swap');
 
 
 body {
@@ -78,26 +78,24 @@ a:hover {
 .form__buy {
     margin-top: 800px;
     background-color: rgba(255, 255, 255, 0.712);
-    max-width: 500px;
-    min-height: 100px;
+    width: 500px;
+    height: 100px;
     border-radius: 20px;
-    
+    text-align: center;
 }
 
 .shop {
-    display: flex;
-    justify-content: center;
     font-size: 25px;
     font-weight: 700;
 }
 
 .buy {
-    margin-left: 180px;
     background: linear-gradient(129.54deg, #9da173 15.57%, #9daa2b 95.03%), #FFFFFF;
     border-radius: 100px;
     padding: 13px 44px;
     font-size: 20px;
     font-weight: 700;
+    color: #e2e0e0;
 }
 
 
@@ -143,21 +141,22 @@ a:hover {
 }
 
 .smotry {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-weight: 500;
     padding-top: 100px;
     text-align: center;
     font-size: 30px;
-    font-weight: 500;
-    font-style: italic;
 }
 
 .swiper {
     width: 1100px;
-    height: auto;
+    height: 600px;
   }
 
 .slider img {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 286px;
 }
 
 .slider {
@@ -208,9 +207,29 @@ a:hover {
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.339);
     max-width: 500px;
-    min-height: 100px;
+    min-height: 150px;
     border-radius: 20px;
     margin-top: 80px;
+    text-align: center;
+}
+
+.shop2 {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.buy2 {
+    background: linear-gradient(129.54deg, #9da173 15.57%, #9daa2b 95.03%), #FFFFFF;
+    border-radius: 100px;
+    padding: 13px 44px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #e2e0e0;
 }
 
 .footer {

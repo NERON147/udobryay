@@ -51,7 +51,7 @@ rotate: {
   y: 0,
   z: 100,
 }});
-
+ScrollReveal().reveal('.trava', {  distance: '60px', origin: 'bottom', delay: 1000, easing: 'ease-in'});
 ScrollReveal().reveal('.form__buy4', {  distance: '60px', origin: 'bottom', delay: 1400, easing: 'ease'});
 ScrollReveal().reveal('.logo--footer', {  distance: '60px', origin: 'bottom', delay: 400});
 ScrollReveal().reveal('.footer__left2', {  distance: '60px', origin: 'left', delay: 1100, easing: 'ease'});

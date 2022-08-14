@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto', sans-serif ;
     color: #56593D;
     font-weight: 400;
+    scroll-behavior: smooth
 }
 
 .container {
@@ -134,11 +135,15 @@ a:hover {
     width: 85px;
 }
 
-.n3 {
+.n2 {
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-thickness: 3px;
     
+}
+
+.shop__tovary {
+    scroll-behavior: smooth;
 }
 
 .before__text a:hover {
@@ -182,7 +187,7 @@ a:hover {
 }
 
 .right__cont {
-    
+    scroll-behavior: smooth;
     padding-top: 200px;
     width: 700px;
 }
@@ -196,6 +201,7 @@ a:hover {
     
     column-gap: 70px;
     margin-top: 50px;
+    scroll-behavior: smooth;
 }
 
 .left__cont2 {

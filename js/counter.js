@@ -21,6 +21,12 @@ const counterWraper =  event.target.closest('.counter-wrapper')
         // Удаляем товар из корзины
          event.target.closest('.cart-item').remove()
      }
+
+     // Отображение статуса корзины Пустая / Полная
+     
+        toogleStatus()
+        
+    
    
     // Проверяем является ли элемент кнопкой -
     if(event.target.dataset.action === "minus") {
@@ -28,14 +34,16 @@ const counterWraper =  event.target.closest('.counter-wrapper')
             return counter.innerText == 1
         }
         counter.innerText = --counter.innerText
+    } 
+    
+    calcCardPrice ()
+    // Проверяем был клик на + или - внутри корзины
+    if(event.target.hasAttribute('[data-action]' && event.target.closest('.cart-wrapper'))) {
+        // Подсчет общей стоимости в корзине
+   calcCardPrice ()
     }
 
     
-
-  
-   
-
 })
 
 
-// parseInt(counter.innerText) === 1 ||

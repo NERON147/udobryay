@@ -117,7 +117,7 @@
 }
 
 .cart-item__img img {
-	max-width: 100px;
+	max-width: 70px;
 	height: auto;
 }
 
@@ -179,8 +179,7 @@
 
 .card__fix {
 	width: 400px;
-	position: sticky;
-	top: 0;
+	
 	
 }
 .btn {

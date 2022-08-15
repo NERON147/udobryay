@@ -43,7 +43,7 @@ window.addEventListener('click', function (event) {
                                                  </div>
                                                   <div class="cart-item__desc">
                                                    <div class="cart-item__title">${productInfo.title}</div>
-                                                      <div class="cart-item__weight">${productInfo.itemsInBox} / ${productInfo.weight}</div>
+                                                      
 
                                                     <!-- cart-item__details -->
                                                    <div class="cart-item__details">
@@ -74,7 +74,11 @@ window.addEventListener('click', function (event) {
         // Сбрасываем счетчик добавленного товара
         card.querySelector('[data-counter]').innerText = '1'
 
+          // Отображение статуса корзины Пустая / Полная
+   toogleStatus()
 
+   // Подсчет общей стоимости в корзине
+   calcCardPrice ()
 
     }
 });

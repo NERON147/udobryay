@@ -1,17 +1,41 @@
-const btnMinus = document.querySelector('[ data-action="minus"]')
-const btnPlus = document.querySelector('[ data-action="plus"]')
-const counter = document.querySelector('[ data-counter]')
-console.log(counter)
-
-btnMinus.addEventListener('click', function () {
-    console.log('Minus click')
-    counter.innerText = --counter.innerText
-    if (counter.innerText <= 0) {
-        return counter.innerText == 0
+window.addEventListener('click', function (event) {
+    
+    //Объявляем переменную для счетчика из-за области видимости
+    let counter;
+    //Проверяем клик строго по кнопке
+    if (event.target.dataset.action === "plus" || event.target.dataset.action === "minus" ) {
+// Назодим обертку и + и -
+const counterWraper =  event.target.closest('.counter-wrapper')
+     
+// находим див с числом
+ counter = counterWraper.querySelector('[data-counter]')
     }
-});
 
-btnPlus.addEventListener('click', function () {
-    console.log('Plus click')
-    counter.innerText = ++counter.innerText
-});
+
+    // Проверяем является ли элемент кнопкой +
+    if(event.target.dataset.action === "plus") {
+     counter.innerText = ++counter.innerText
+    }
+    // Проверка на товар который находится в корзине
+    if (event.target.closest('.cart-wrapper') && event.target.closest('.close') || parseInt(counter.innerText) === 1 ) {
+        // Удаляем товар из корзины
+         event.target.closest('.cart-item').remove()
+     }
+   
+    // Проверяем является ли элемент кнопкой -
+    if(event.target.dataset.action === "minus") {
+        if (parseInt(counter.innerText) <= 1) {
+            return counter.innerText == 1
+        }
+        counter.innerText = --counter.innerText
+    }
+
+    
+
+  
+   
+
+})
+
+
+// parseInt(counter.innerText) === 1 ||

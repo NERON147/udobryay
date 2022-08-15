@@ -68,3 +68,6 @@ rotate: {
   z: 10,
 }});
 ScrollReveal().reveal('.card__fix', {  distance: '300px', origin: 'bottom', delay: 1700, easing: 'ease'});
+
+
+

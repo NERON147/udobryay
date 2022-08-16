@@ -1,6 +1,6 @@
 /* @import './css/reset.css'; */
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto:ital,wght@0,400;0,700;1,500&family=Ubuntu:ital,wght@1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap');
 
 body {
     background: #E5E5E5;
@@ -8,6 +8,10 @@ body {
     color: #56593D;
     font-weight: 400;
     scroll-behavior: smooth
+}
+
+.header {
+    background: #c4d6d689;
 }
 
 .container {
@@ -65,29 +69,25 @@ a:hover {
     transform: rotate(-360deg);
 }
 
-.bgr {
-    margin-top: 50px;
-    height: 1000px;
-    background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url('.././img/header/bcg.png') ;
-	
-	position: relative;
-}
+
 
 .form__buy {
-    margin-top: 800px;
-    background-color: rgba(255, 255, 255, 0.712);
-    width: 500px;
-    height: 100px;
-    border-radius: 20px;
-    text-align: center;
+    padding-top: 50px;
+ 
 }
 
 .shop {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 700;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 600;
+}
+
+.shop__text {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 600;
 }
 
 .buy {
@@ -95,21 +95,29 @@ a:hover {
     border-radius: 100px;
     padding: 13px 44px;
     font-size: 20px;
-    font-weight: 700;
+   
     color: #e2e0e0;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 600;
+}
+
+.buy3 {
+    margin-top: 80px;
 }
 
 
 .main {
-    width: 100%;
+   
 }
 
 .main__text {
-    font-family: 'Jost';
+   
     text-align: center;
     font-size: 57px;
     margin: 0 auto; 
-    width: 1200px;
+    
+    font-family: 'DynaPuff', cursive;
+    font-weight: 600;
 }
 
 .before__text {
@@ -153,16 +161,15 @@ a:hover {
 }
 
 .smotry {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: italic;
-    font-weight: 500;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 600;
     padding-top: 100px;
     text-align: center;
     font-size: 30px;
 }
 
 .swiper {
-    width: 1100px;
+   
     height: 600px;
   }
 
@@ -176,20 +183,22 @@ a:hover {
 }
 
 .about__us {
-    display: flex;
-    
-    column-gap: 70px;
+   
     margin-top: 50px;
 }
 
 .left__cont {
-    width: 700px;
+    
 }
 
 .right__cont {
     scroll-behavior: smooth;
     padding-top: 200px;
-    width: 700px;
+    
+}
+
+.onas{
+    
 }
 
 .ogorod {
@@ -197,20 +206,22 @@ a:hover {
 }
 
 .dostavka {
-    display: flex;
     
-    column-gap: 70px;
     margin-top: 50px;
     scroll-behavior: smooth;
 }
 
 .left__cont2 {
-    width: 700px;
+    
     padding-top: 80px;
 }
 .right__cont2 {
    
-    width: 700px;
+    
+}
+
+.dostavka__text {
+    
 }
 
 .gazel {
@@ -229,9 +240,8 @@ a:hover {
 
 .shop2 {
     font-size: 25px;
-    font-family: 'Ubuntu', sans-serif;
-    font-style: italic;
-    font-weight: 500;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 600;
     margin-bottom: 50px;
 }
 
@@ -240,9 +250,8 @@ a:hover {
     border-radius: 100px;
     padding: 13px 44px;
     font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
-    font-style: italic;
-    font-weight: 500;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 600;
     color: #e2e0e0;
 }
 

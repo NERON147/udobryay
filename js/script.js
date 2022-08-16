@@ -33,9 +33,9 @@ const swiper = new Swiper('.swiper', {
   ScrollReveal().reveal('.form__buy3', {  distance: '60px', origin: 'left',  delay: 500 , easing: 'ease'});
   ScrollReveal().reveal('.buy3', {  distance: '60px', origin: 'right', delay: 1000, easing: 'ease',
   rotate: {
-    x: 100,
-    y: 0,
-    z: 100,
+    x: 1000,
+    y: 50,
+    z: 50,
 }});
 ScrollReveal().reveal('.bgr', {  distance: '200px', origin: 'bottom',  delay: 1200, easing: 'ease',});
 ScrollReveal().reveal('.main__text2', {  distance: '60px', origin: 'bottom',  delay: 700, easing: 'ease' });

@@ -19,6 +19,6 @@ navi.addEventListener('click', closeMenu)
 function closeMenu() {
   popup.classList.remove('open');
   document.body.classList.toggle('stop-scrolling');
-  menuIcon.classList.remove('menu-icon-active');
+  menuIcon.classList.toggle('menu-icon-active');
 }
 

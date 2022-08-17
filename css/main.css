@@ -168,8 +168,9 @@ a:hover {
 }
 
 .smotry {
-    font-family: 'DynaPuff', cursive;
-    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-style: italic;
     padding-top: 100px;
     text-align: center;
     font-size: 30px;
@@ -251,8 +252,9 @@ a:hover {
 
 .shop2 {
     font-size: 25px;
-    font-family: 'DynaPuff', cursive;
-    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-style: italic;
     margin-bottom: 50px;
 }
 

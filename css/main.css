@@ -1,6 +1,6 @@
 /* @import './css/reset.css'; */
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto:ital,wght@0,400;0,700;1,500&family=Ubuntu:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
 
 body {
     background: #E5E5E5;
@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
@@ -38,6 +39,8 @@ body {
 .navi {
     display: flex;
     column-gap: 38px;
+    
+   
     
 }
 
@@ -80,15 +83,17 @@ a:hover {
 .shop {
     font-size: 40px;
     font-weight: 700;
-    font-family: 'DynaPuff', cursive;
-    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .shop__text {
     font-size: 30px;
     font-weight: 700;
-    font-family: 'DynaPuff', cursive;
-    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .buy {
@@ -98,8 +103,9 @@ a:hover {
     font-size: 20px;
    
     color: #e2e0e0;
-    font-family: 'DynaPuff', cursive;
-    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .buy3 {
@@ -116,9 +122,9 @@ a:hover {
     text-align: center;
     font-size: 57px;
     margin: 0 auto; 
-    
-    font-family: 'DynaPuff', cursive;
-    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .before__text {

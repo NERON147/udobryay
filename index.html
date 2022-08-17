@@ -11,22 +11,47 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-  <link href="dist/hamburgers.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"
     defer></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
   <script src="./js/script.js" defer></script>
+  <script src="./js/humb.js" defer></script>
 
 
 
 </head>
 
 <body>
+  <div class="popup" id="popup">
+    <div class="pop__menu">
+      <!--  eto pizdec)) -->
+      <div class="n1">
+        <a href="./index.html">ГЛАВНАЯ</a>
+      </div>
+      <div class="n2">
+        <a href="./katalog.html" class="active">КАТАЛОГ</a>
+      </div>
+      <div class="n3">
+        <a href="#watch_s">ВЗГЛЯНИТЕ</a>
+      </div>
+      <div class="n4">
+        <a href="#about_s">О НАС</a>
+      </div>
+      <div class="n5">
+        <a href="#dostavka_s">ДОСТАВКА</a>
+      </div>
+    </div>
+  </div>
   <header class="header">
     <div class="container">
       <div class="nagat__pannel">
-        <nav class="navi navi2">
+        <button class="nav__toogle" id="hamb">
+          <div class="menu-icon-wrapper ">
+            <div class="menu-icon"></div>
+          </div>
+        </button>
+        <nav class="navi navi2" id="navi">
           <div class="n1">
             <a href="./index.html">ГЛАВНАЯ</a>
           </div>
@@ -62,7 +87,11 @@
           </div>
         </div>
       </div>
+      <div class="logo2 ">
+        <img src="./img/header/kinn.png" alt="" class="logo5">
+      </div>
     </div>
+
 
     <section>
       <div class="container">
@@ -137,7 +166,7 @@
 
               </div>
               <div class="swiper-slide">
-                <div class="card style=" width: 18rem;">
+                <div class="card" style="width: 18rem;">
                   <img src="./img/shop/biozem.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Грунт биозём</h5>
@@ -292,11 +321,11 @@
   <section>
     <div class="container about__us">
       <div class="row gx-5">
-        <div class="col-lg-6 left__cont2">
-          <img src="./img/about/ogorod.jpeg" alt="" class="ogorod">
+        <div class="col-lg-6">
+          <img src="./img/about/ogorod.jpeg" alt="" class="ogorod left__cont2">
         </div>
-        <div class="col-lg-6 right__cont right__cont2 text-center" id="about_s">
-          <p class="onas">"Удобряй!" – крупнейший поставщик всех видов удобрений на российском рынке. Компания
+        <div class="col-lg-6 right__cont text-center" id="about_s">
+          <p class="onas right__cont2">"Удобряй!" – крупнейший поставщик всех видов удобрений на российском рынке. Компания
             располагает горнодобывающими и перерабатывающими предприятиями в Мурманской, Вологодской, Саратовской и
             Ленинградской областях, собственной логистической инфраструктурой, в том числе двумя портовыми
             терминалами, а также крупнейшей в стране сетью дистрибуции минеральных удобрений и кормовых фосфатов. У
@@ -310,23 +339,24 @@
   </section>
 
   <section>
-    <div class="container gx-5 dostavka id="dostavka_s"">
+    <div class="container gx-5 dostavka id=" dostavka_s"">
       <div class="row gx-5">
-          <div class=" col-lg-6 left__cont2">
-            <p class="dostavka__text text-center">"Удобряй!" – крупнейший поставщик всех видов удобрений на российском рынке. Компания
-              располагает горнодобывающими и перерабатывающими предприятиями в Мурманской, Вологодской, Саратовской и
-              Ленинградской областях, собственной логистической инфраструктурой, в том числе двумя портовыми
-              терминалами, а также крупнейшей в стране сетью дистрибуции минеральных удобрений и кормовых фосфатов. У
-              нас единственный в России и ведущий в Европе профильный научно-исследовательский институт по удобрениям
-              и инсектофунгицидам – НИУИФ им. Я.В. Самойлова. Институт де-факто создал в нашей стране мощную базу
-              фосфатного сырья и отрасль минеральных удобрений. В 2019 г. АО «НИУИФ» отметил свой 100-летний юбилей.
-            </p>
-          </div>
-          <div class=" col-lg-6 right__cont2">
-            <img src="./img/dostavka/gazel.jpg" alt="" class="gazel">
-          </div>
+        <div class=" col-lg-6 ">
+          <p class="dostavka__text text-center left__cont2">"Удобряй!" – крупнейший поставщик всех видов удобрений на российском
+            рынке. Компания
+            располагает горнодобывающими и перерабатывающими предприятиями в Мурманской, Вологодской, Саратовской и
+            Ленинградской областях, собственной логистической инфраструктурой, в том числе двумя портовыми
+            терминалами, а также крупнейшей в стране сетью дистрибуции минеральных удобрений и кормовых фосфатов. У
+            нас единственный в России и ведущий в Европе профильный научно-исследовательский институт по удобрениям
+            и инсектофунгицидам – НИУИФ им. Я.В. Самойлова. Институт де-факто создал в нашей стране мощную базу
+            фосфатного сырья и отрасль минеральных удобрений. В 2019 г. АО «НИУИФ» отметил свой 100-летний юбилей.
+          </p>
+        </div>
+        <div class=" col-lg-6 ">
+          <img src="./img/dostavka/gazel.jpg" alt="" class="gazel right__cont2">
         </div>
       </div>
+    </div>
   </section>
   <section>
     <div class="container">

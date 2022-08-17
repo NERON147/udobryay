@@ -1,3 +1,7 @@
+.header {
+    background: #E5E5E5;
+    
+}
 
 .card {
 	height: auto;
@@ -202,3 +206,4 @@
 	transition: 0.2s;
 	color: rgb(255, 0, 0);
 }
+

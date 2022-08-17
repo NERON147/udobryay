@@ -1,17 +1,36 @@
 const swiper = new Swiper('.swiper', {
   
   speed: 300,
-    spaceBetween: 100,
+  spaceBetween: 0,
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "3",
-    initialSlide: 8,
+    initialSlide: 1,
     autoplay : {
       delay: 5000,
       disableOnInteraction: false,
     },
     speed: 600,
     loop: true,
+    breakpoints: {
+      1000: {
+        slidesPerView: 3,
+        
+      },
+      700: {
+        slidesPerView: 2,
+        
+      },
+      640: {
+        slidesPerView: 1,
+        
+      },
+      320: {
+        slidesPerView: 1,
+        
+      }
+    },
+    
   });
 
   
@@ -29,9 +48,9 @@ const swiper = new Swiper('.swiper', {
     y: 0,
     z: 100,
 }, delay: 900,  easing: 'ease' });
-  ScrollReveal().reveal('.img2', {  distance: '60px', origin: 'right',  delay: 800, easing: 'ease'});
-  ScrollReveal().reveal('.form__buy3', {  distance: '60px', origin: 'left',  delay: 500 , easing: 'ease'});
-  ScrollReveal().reveal('.buy3', {  distance: '60px', origin: 'right', delay: 1000, easing: 'ease',
+  ScrollReveal().reveal('.shop', {  distance: '60px', origin: 'left',  delay: 1500 , easing: 'ease'});
+  ScrollReveal().reveal('.shop__text', {  distance: '60px', origin: 'left',  delay: 1700 , easing: 'ease'});
+  ScrollReveal().reveal('.buy3', {  distance: '60px', origin: 'right', delay: 1900, easing: 'ease',
   rotate: {
     x: 1000,
     y: 50,
@@ -68,6 +87,7 @@ rotate: {
   z: 10,
 }});
 ScrollReveal().reveal('.card__fix', {  distance: '300px', origin: 'bottom', delay: 1700, easing: 'ease'});
+
 
 
 

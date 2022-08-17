@@ -1,5 +1,6 @@
 window.addEventListener('click', function (event) {
     
+    
     //Объявляем переменную для счетчика из-за области видимости
     let counter;
     //Проверяем клик строго по кнопке

@@ -133,14 +133,14 @@ a:hover {
 
 .katalog {
     font-size: 16px;
-    background: url(/img/section/arrow.png) no-repeat right;
+    background: url(./img/section/arrow.png) no-repeat right;
     width: 85px;
     
 }
 
 .about__text {
     font-size: 16px;
-    background: url(/img/section/arrow.png) no-repeat right;
+    background: url(./img/section/arrow.png) no-repeat right;
     width: 85px;
 }
 

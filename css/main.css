@@ -283,8 +283,9 @@ a:hover {
     border-radius: 100px;
     padding: 13px 44px;
     font-size: 20px;
-    font-family: 'DynaPuff', cursive;
-    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-style: italic;
     color: #e2e0e0;
 }
 

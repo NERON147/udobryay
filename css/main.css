@@ -99,6 +99,7 @@ a:hover {
 }
 
 .buy {
+    
     background: linear-gradient(129.54deg, #9da173 15.57%, #9daa2b 95.03%), #FFFFFF;
     border-radius: 100px;
     padding: 13px 44px;
@@ -120,7 +121,6 @@ a:hover {
 }
 
 .main__text {
-   
     text-align: center;
     font-size: 57px;
     margin: 0 auto; 
@@ -262,10 +262,11 @@ a:hover {
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.339);
     max-width: 500px;
-    min-height: 150px;
+    min-height: 200px;
     border-radius: 20px;
     margin-top: 80px;
     text-align: center;
+    
 }
 
 .shop2 {
@@ -273,7 +274,8 @@ a:hover {
     font-family: 'Merriweather', serif;
     font-weight: 700;
     font-style: italic;
-    margin-bottom: 50px;
+    padding-top: 30px;
+    
 }
 
 .buy2 {
@@ -299,7 +301,7 @@ a:hover {
 }
 
 .btn {
-    background: linear-gradient(129.54deg, #9da173 15.57%, #303315 95.03%), #FFFFFF;
+    background: linear-gradient(129.54deg, #9da173 15.57%, #9daa2b 95.03%), #FFFFFF;
     border: none;
    
 }

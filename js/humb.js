@@ -1,7 +1,7 @@
 const popup = document.querySelector('#popup')
 const menuIcon = document.querySelector('.menu-icon')
 const menuWrapper = document.querySelector('.menu-icon-wrapper')
-const navi = document.querySelector('#navi').cloneNode(1)
+const navi = document.querySelector('.pop__menu')
 
 
 
@@ -13,4 +13,12 @@ function hambHndler(e) {
   popup.classList.toggle('open');
   document.body.classList.toggle('stop-scrolling');
 };
+
+navi.addEventListener('click', closeMenu)
+
+function closeMenu() {
+  popup.classList.remove('open');
+  document.body.classList.toggle('stop-scrolling');
+  menuIcon.classList.toggle('menu-icon-active');
+}
 

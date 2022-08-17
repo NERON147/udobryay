@@ -8,7 +8,7 @@ body {
     color: #56593D;
     font-weight: 400;
     scroll-behavior: smooth;
-    position: relative;
+    
 }
 
 .header {
@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    position: relative;
 }
 
 
@@ -366,7 +366,7 @@ a:hover {
       display: none;
       justify-content: center;
       align-items: center;
-      padding-bottom: 50px;
+      
       
     }
     
@@ -444,6 +444,7 @@ a:hover {
     }
     
     .menu-icon-wrapper {
+        
         position: fixed ;
         display: flex;
         z-index: 500;

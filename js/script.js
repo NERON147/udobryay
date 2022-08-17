@@ -63,7 +63,10 @@ ScrollReveal().reveal('.about__text2', {  distance: '60px', origin: 'right', del
 ScrollReveal().reveal('.smotry2', {  distance: '60px', origin: 'top', delay: 800, easing: 'ease'});
 ScrollReveal().reveal('.slider2', {  distance: '60px', origin: 'bottom', delay: 1100, easing: 'ease'});
 ScrollReveal().reveal('.left__cont2', {  distance: '60px', origin: 'left', delay: 1100, easing: 'ease'});
-ScrollReveal().reveal('.right__cont2', {  distance: '60px', origin: 'right', delay: 1500, easing: 'ease'});
+// ScrollReveal().reveal('.right__cont2', {  distance: '60px', origin: 'right', delay: 1800, easing: 'ease'});
+// ScrollReveal().reveal('.onas', {  distance: '60px', origin: 'right', delay: 1800, easing: 'ease'});
+// ScrollReveal().reveal('.gazel', {  distance: '60px', origin: 'right', delay: 1800, easing: 'ease'});
+
 ScrollReveal().reveal('.ogorod', {  distance: '60px', origin: 'left', delay: 1100, easing: 'ease'});
 ScrollReveal().reveal('.buy4', {  distance: '60px', origin: 'right', delay: 1900, easing: 'ease',
 rotate: {

@@ -360,14 +360,14 @@ a:hover {
 
 
 .menu-icon-wrapper {
-    position: fixed;
+    
       width: 30px;
       height: 30px;
       display: none;
       justify-content: center;
       align-items: center;
       padding-bottom: 50px;
-      z-index: 500;
+      
     }
     
     .menu-icon {
@@ -440,11 +440,13 @@ a:hover {
 
     .nav__toogle {
         z-index: 200;
+        
     }
     
     .menu-icon-wrapper {
+        position: fixed ;
         display: flex;
-        z-index: 200;
+        z-index: 500;
       }
 
       .logo{

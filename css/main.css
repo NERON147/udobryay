@@ -8,6 +8,7 @@ body {
     color: #56593D;
     font-weight: 400;
     scroll-behavior: smooth;
+    position: relative;
 }
 
 .header {
@@ -27,6 +28,7 @@ body {
     align-items: center;
     
 }
+
 
 
 
@@ -139,14 +141,14 @@ a:hover {
 
 .katalog {
     font-size: 16px;
-    background: url(./img/section/arrow.png) no-repeat right;
+    background: url(../img/section/arrow.png) no-repeat right;
     width: 85px;
     
 }
 
 .about__text {
     font-size: 16px;
-    background: url(./img/section/arrow.png) no-repeat right;
+    background: url(../img/section/arrow.png) no-repeat right;
     width: 85px;
 }
 
@@ -184,19 +186,33 @@ a:hover {
 .slider img {
     width: auto;
     height: 286px;
+    
 }
 
 .slider {
-   text-align: center;
+   
 }
 
 .swiper-slide {
     
+    display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
 }
 
 .about__us {
-   
-    margin-top: 50px;
+   padding-top: 250px;
+   margin: 0 auto;
+    
 }
 
 .left__cont {
@@ -215,11 +231,12 @@ a:hover {
 
 .ogorod {
     border-radius: 20px;
+    
 }
 
 .dostavka {
-    
-    margin-top: 50px;
+    margin: 0 auto;
+    padding-top: 250px;
     scroll-behavior: smooth;
 }
 
@@ -238,6 +255,7 @@ a:hover {
 
 .gazel {
     border-radius: 20px;
+    width: auto;
 }
 
 .form__buy2 {
@@ -339,11 +357,13 @@ a:hover {
 
 
 .menu-icon-wrapper {
+    position: fixed;
       width: 30px;
       height: 30px;
       display: none;
       justify-content: center;
       align-items: center;
+      padding-bottom: 50px;
     }
     
     .menu-icon {

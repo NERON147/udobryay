@@ -1,16 +1,16 @@
 const swiper = new Swiper('.swiper', {
+
+  centeredSlides: true,
+  speed: 600,
   
-  speed: 300,
-  spaceBetween: 0,
     grabCursor: true,
-    centeredSlides: true,
     slidesPerView: "3",
     initialSlide: 1,
     autoplay : {
       delay: 5000,
       disableOnInteraction: false,
     },
-    speed: 600,
+    
     loop: true,
     breakpoints: {
       1000: {
@@ -30,7 +30,7 @@ const swiper = new Swiper('.swiper', {
         
       }
     },
-    
+  
   });
 
   
@@ -63,7 +63,8 @@ ScrollReveal().reveal('.about__text2', {  distance: '60px', origin: 'right', del
 ScrollReveal().reveal('.smotry2', {  distance: '60px', origin: 'top', delay: 800, easing: 'ease'});
 ScrollReveal().reveal('.slider2', {  distance: '60px', origin: 'bottom', delay: 1100, easing: 'ease'});
 ScrollReveal().reveal('.left__cont2', {  distance: '60px', origin: 'left', delay: 1100, easing: 'ease'});
-ScrollReveal().reveal('.right__cont2', {  distance: '60px', origin: 'right', delay: 1800, easing: 'ease'});
+ScrollReveal().reveal('.right__cont2', {  distance: '60px', origin: 'right', delay: 1500, easing: 'ease'});
+ScrollReveal().reveal('.ogorod', {  distance: '60px', origin: 'left', delay: 1100, easing: 'ease'});
 ScrollReveal().reveal('.buy4', {  distance: '60px', origin: 'right', delay: 1900, easing: 'ease',
 rotate: {
   x: 100,

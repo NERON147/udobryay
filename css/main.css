@@ -211,8 +211,8 @@ a:hover {
 
 .about__us {
    padding-top: 250px;
-   margin: 0 auto;
-    
+   
+    overflow-x: hidden;
 }
 
 .left__cont {
@@ -235,7 +235,8 @@ a:hover {
 }
 
 .dostavka {
-    margin: 0 auto;
+    overflow-x: hidden;
+    
     padding-top: 250px;
     scroll-behavior: smooth;
 }

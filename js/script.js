@@ -2,7 +2,10 @@ const swiper = new Swiper('.swiper', {
 
   centeredSlides: true,
   speed: 600,
-  
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
     grabCursor: true,
     slidesPerView: "3",
     initialSlide: 1,

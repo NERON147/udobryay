@@ -435,6 +435,13 @@ a:hover {
       
 
 @media (max-width: 1000px) {
+    .nagat__pannel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
     .navi {
         display: none;
     }
@@ -453,7 +460,6 @@ a:hover {
 
       .logo{
         
-        padding: 0;
       }
 
       .bgr {
@@ -513,6 +519,13 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+    .nagat__pannel {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
     .logo {
         display: none;
     }

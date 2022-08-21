@@ -182,7 +182,7 @@
 }
 
 .card__fix {
-	width: 400px;
+	max-width: 400px;
 	
 	
 }
@@ -206,4 +206,52 @@
 	transition: 0.2s;
 	color: rgb(255, 0, 0);
 }
+
+.kozina {
+	
+	
+}
+
+.setchik__text {
+	background: #ff000085;
+  clip-path: circle(50%);
+  height: 40px;
+  width: 40px;
+	right: 10px;
+	bottom: 50px;
+	font-size: 30px;
+	position: fixed;
+	z-index: 700;
+	color: rgb(255, 255, 255);
+	
+	
+}
+
+.kozina__img {
+	right: 10px;
+	bottom: 10px;
+	width: 70px;
+	position: fixed;
+	z-index: 600;
+}
+
+@media (max-width: 600px) {
+	.kozina {
+		
+		display: block;
+	}
+
+	.card__fix {
+		display: none;
+	}
+
+	.details-wrapper {
+		flex-direction: column;
+	}
+
+	.price__currency {
+		padding-top: 20px;
+	}
+}
+
 

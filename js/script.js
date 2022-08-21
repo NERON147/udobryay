@@ -96,6 +96,10 @@ rotate: {
 ScrollReveal().reveal('.card__fix', {  distance: '300px', origin: 'bottom', delay: 1700, easing: 'ease'});
 
 ScrollReveal().reveal('.menu-icon-wrapper', {  distance: '100px', origin: 'left', delay: 1800, easing: 'ease'});
+ScrollReveal().reveal('.kozina__img', {  distance: '100px', origin: 'right', delay: 3800, easing: 'ease'});
+ScrollReveal().reveal('.setchik', {  distance: '100px', origin: 'right', delay: 3800, easing: 'ease'});
+
+
 
 
 

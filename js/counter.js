@@ -15,6 +15,7 @@ const counterWraper =  event.target.closest('.counter-wrapper')
 
     // Проверяем является ли элемент кнопкой +
     if(event.target.dataset.action === "plus") {
+        
      counter.innerText = ++counter.innerText
     }
     // Проверка на товар который находится в корзине
@@ -26,8 +27,8 @@ const counterWraper =  event.target.closest('.counter-wrapper')
      // Отображение статуса корзины Пустая / Полная
      
         toogleStatus()
-        
-    
+        calcCardPrice ()
+        countShop () 
    
     // Проверяем является ли элемент кнопкой -
     if(event.target.dataset.action === "minus") {
@@ -35,6 +36,7 @@ const counterWraper =  event.target.closest('.counter-wrapper')
             return counter.innerText == 1
         }
         counter.innerText = --counter.innerText
+        
     } 
     
     calcCardPrice ()
@@ -42,7 +44,10 @@ const counterWraper =  event.target.closest('.counter-wrapper')
     if(event.target.hasAttribute('[data-action]' && event.target.closest('.cart-wrapper'))) {
         // Подсчет общей стоимости в корзине
    calcCardPrice ()
+   countShop () 
+   
     }
+    
 
     
 })

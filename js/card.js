@@ -1,7 +1,6 @@
 // Див внутри корзины, в которой мы добавляем товары
 const cartWrapper = document.querySelector('.cart-wrapper')
 
-
 //Отслеживаем клик по странице
 
 window.addEventListener('click', function (event) {
@@ -11,7 +10,7 @@ window.addEventListener('click', function (event) {
     // Проверяем что клик был совершен по кнопке Добавить в корзину
 
     if (event.target.hasAttribute('data-cart')) {
-
+       
         // Находим карточку с товаром, внутри которой был совершен клик
         const card = event.target.closest('.card');
 
@@ -21,7 +20,6 @@ window.addEventListener('click', function (event) {
             imgSrc: card.querySelector('.product-img').getAttribute('src'),
             title: card.querySelector('.item-title').innerText,
             itemsInBox: card.querySelector('[data-items-in-box]').innerText,
-            weight: card.querySelector('.price__weight').innerText,
             price: card.querySelector('.price__currency').innerText,
             counter: card.querySelector('[data-counter]').innerText,
         }
@@ -35,7 +33,8 @@ window.addEventListener('click', function (event) {
         //Если товар есть в корзине
         if(itemInCart) {
          const counterElement = itemInCart.querySelector('[data-counter]')
-         counterElement.innerText = parseInt(counterElement.innerText) + parseInt(productInfo.counter)
+         counterElement.innerText = parseInt(counterElement.innerText) + parseInt(productInfo.counter) 
+         
         }else {
 
         const cartItemHTML = `      
@@ -48,12 +47,12 @@ window.addEventListener('click', function (event) {
                                                    <div class="cart-item__title">${productInfo.title}</div>
                                                       
 
-                                                    <!-- cart-item__details -->
+                                                   
                                                    <div class="cart-item__details">
 
                                                   <div class="items items--small counter-wrapper">
                                                     <div class="items__control" data-action="minus">-</div>
-                                                    <div class="items__current" data-counter="">${productInfo.counter}</div>
+                                                    <div class="items__current" data-counter="" id="data-counter">${productInfo.counter}</div>
                                                     <div class="items__control" data-action="plus">+</div>
                                                     </div>
 
@@ -64,7 +63,7 @@ window.addEventListener('click', function (event) {
                                                      <div class="close">&#10006;</div>
 
                                                     </div>
-                                                    <!-- // cart-item__details -->
+                                                    
 
                                                     </div>
                                                  </div>
@@ -79,10 +78,10 @@ window.addEventListener('click', function (event) {
 
           // Отображение статуса корзины Пустая / Полная
    toogleStatus()
-
+   countShop () 
    // Подсчет общей стоимости в корзине
    calcCardPrice ()
-
+   countShop () 
     }
 });
 

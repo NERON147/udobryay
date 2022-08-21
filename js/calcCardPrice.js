@@ -15,7 +15,7 @@ function calcCardPrice () {
 
       const amountEL = item.querySelector('[data-counter]')
       const priceEL = item.querySelector('.price__currency')
-
+      
       const currentPrice = parseInt(amountEL.innerText) * parseInt(priceEL.innerText)
      
 
@@ -23,9 +23,10 @@ function calcCardPrice () {
         // Отображаем цену на странице
         totalPriceEl.innerText = totalPrice
 
-
     })
 
+
+    
     // Работаем с "Доставить"
 
 // Скрываем либо показываем блок доставки

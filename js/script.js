@@ -99,6 +99,11 @@ ScrollReveal().reveal('.menu-icon-wrapper', {  distance: '100px', origin: 'left'
 ScrollReveal().reveal('.kozina__img', {  distance: '100px', origin: 'right', delay: 3800, easing: 'ease'});
 ScrollReveal().reveal('.setchik', {  distance: '100px', origin: 'right', delay: 3800, easing: 'ease'});
 
+var cleave = new Cleave('.tel', {
+  phone: true,
+  phoneRegionCode: 'RU',
+  delimiter: '-',
+});
 
 
 

@@ -1,3 +1,4 @@
+
 // Див внутри корзины, в которой мы добавляем товары
 const cartWrapper = document.querySelector('.cart-wrapper')
 
@@ -44,7 +45,7 @@ window.addEventListener('click', function (event) {
                                              <img src="${productInfo.imgSrc}" alt="">
                                                  </div>
                                                   <div class="cart-item__desc">
-                                                   <div class="cart-item__title">${productInfo.title}</div>
+                                                   <div class="cart-item__title" name="productName">${productInfo.title}</div>
                                                       
 
                                                    
@@ -52,12 +53,12 @@ window.addEventListener('click', function (event) {
 
                                                   <div class="items items--small counter-wrapper">
                                                     <div class="items__control" data-action="minus">-</div>
-                                                    <div class="items__current" data-counter="" id="data-counter">${productInfo.counter}</div>
+                                                    <div class="items__current" data-counter="" id="data-counter" name="productCounter">${productInfo.counter}</div>
                                                     <div class="items__control" data-action="plus">+</div>
                                                     </div>
 
                                                     <div class="price">
-                                                    <div class="price__currency">${productInfo.price}</div>
+                                                    <div class="price__currency" name="productPrice">${productInfo.price}</div>
                                                      </div>
 
                                                      <div class="close">&#10006;</div>
@@ -69,6 +70,7 @@ window.addEventListener('click', function (event) {
                                                  </div>
                                              </div>
     `;
+    
         //отображаем товар в корзине
         cartWrapper.insertAdjacentHTML("beforeend", cartItemHTML)
         }

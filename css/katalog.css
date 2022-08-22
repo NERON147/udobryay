@@ -208,7 +208,7 @@
 }
 
 .kozina {
-	
+	display: none;
 	
 }
 
@@ -235,7 +235,9 @@
 	z-index: 600;
 }
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 770px) {
 	.kozina {
 		
 		display: block;

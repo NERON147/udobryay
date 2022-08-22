@@ -23,6 +23,10 @@
   <script src="./js/calcCardPrice.js" defer></script>
   <script src="./js/humb.js" defer></script>
   <script src="./js/kozina.js" defer></script>
+  <script src="./js/formPush.js" defer></script>
+
+  
+
 
 
 </head>
@@ -117,14 +121,15 @@
             </div>
             <div class="modal-body">
               <div class="">
-                <div class="card mb-4">
+                <div class="card mb-4 pushcart">
                   <div class="card-body">
                     <h5 class="card-title">Ваш заказ</h4>
                       <div data-cart-empty class="alert alert-secondary" role="alert">
                         Корзина пуста
                       </div>
+                      <form id="form-group">
                       <!-- cart-wrapper -->
-                      <div class="cart-wrapper">
+                      <div class="cart-wrapper" id="cart-wrapper">
   
   
   
@@ -146,9 +151,15 @@
                   <!-- Оформить заказ -->
                   <div id="order-form" class="card-body border-top none">
                     <h5 class="card-title">Оформить заказ</h4>
-                      <form>
+                      
                         <div class="form-group">
-                          <input type="text" class="form-control" placeholder="Ваш номер телефона">
+                          <input type="tel" class="form-control mb-4 tel" placeholder="Ваш номер телефона" name="tel" required>
+                          <input type="text" class="form-control mb-4" placeholder="Как Вас зовут?" name="name" required>
+                          <input type="text" class="form-control mb-4" placeholder="Ваш полный адрес" name="adres" required>
+                          <input type="text" class="form-control mb-4" placeholder="Удобное время доставки" name="time" required>
+                          <input type="text" class="form-control mb-4" placeholder="Комментарий если потребуется" name="comment">
+                        </div>
+                        <div id="success" class="alert alert-success" role="alert" style="display: none;">
                         </div>
                         <button type="submit" class="btn btn-primary btn-outline-warning bm">Заказать</button>
                       </form>
@@ -350,7 +361,7 @@
     </section>
 
    
-
+    
 
 
 
@@ -419,7 +430,9 @@
         </div>
       </div>
     </footer> -->
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./libs/cleave.min.js"></script>
+<script src="./libs/cleave-phone.ru.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 </body>
 

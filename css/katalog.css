@@ -105,8 +105,9 @@
     border-color: #c6f1a1;
 }
 
-.cart-item {
-	
+.card img {
+	width: auto;
+    max-height: 286px;
 }
 
 .cart-item__top {

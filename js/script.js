@@ -44,8 +44,6 @@ const swiper = new Swiper('.swiper', {
   ScrollReveal().reveal('.n5', {  distance: '60px', origin: 'left', delay: 700, easing: 'ease'});
   ScrollReveal().reveal('.i', {  distance: '60px', origin: 'right', delay: 1000, easing: 'ease'});
   ScrollReveal().reveal('.i1', {  distance: '60px', origin: 'right', delay: 1100, easing: 'ease'});
-  ScrollReveal().reveal('.i2', {  distance: '60px', origin: 'right', delay: 1200, easing: 'ease'});
-  ScrollReveal().reveal('.i3', {  distance: '60px', origin: 'right', delay: 1300, easing: 'ease'});
   ScrollReveal().reveal('.logo2', {  distance: '60px', origin: 'top',  rotate: {
     x: 200,
     y: 0,

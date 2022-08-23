@@ -94,8 +94,9 @@
 }
 
 .btn-outline-warning {
-    color: #fcfcfc;
+    color: #00735A;
     border-color: #c6f1a1;
+	font-weight: 700;
 }
 
 .btn-outline-warning:hover {
@@ -208,7 +209,7 @@
 }
 
 .kozina {
-	display: none;
+	
 	
 }
 

@@ -1,5 +1,5 @@
 window.addEventListener('click', function (event) {
-    
+   
     
     //Объявляем переменную для счетчика из-за области видимости
     let counter;
@@ -19,9 +19,18 @@ const counterWraper =  event.target.closest('.counter-wrapper')
      counter.innerText = ++counter.innerText
     }
     // Проверка на товар который находится в корзине
-    if (event.target.closest('.cart-wrapper') && event.target.closest('.close') || parseInt(counter.innerText) === 1 ) {
+    if (event.target.closest('.cart-wrapper') && event.target.closest('.close')) {
         // Удаляем товар из корзины
-         event.target.closest('.cart-item').remove()
+        event.target.closest('.cart-item').remove()
+    
+         
+     }
+
+     if (event.target.closest('.cart-wrapper') && event.target.closest('.minusBtn')) {
+        // Удаляем товар из корзины
+        if(event.target.closest('.cart-wrapper').querySelector('.items__current').innerText === '1'){
+            event.target.closest('.cart-item').remove()
+        }
      }
 
      // Отображение статуса корзины Пустая / Полная

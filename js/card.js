@@ -45,20 +45,20 @@ window.addEventListener('click', function (event) {
                                              <img src="${productInfo.imgSrc}" alt="">
                                                  </div>
                                                   <div class="cart-item__desc">
-                                                   <div class="cart-item__title" name="productName">${productInfo.title}</div>
+                                                   <div class="cart-item__title" id="productName">${productInfo.title}</div>
                                                       
 
                                                    
                                                    <div class="cart-item__details">
 
                                                   <div class="items items--small counter-wrapper">
-                                                    <div class="items__control" data-action="minus">-</div>
-                                                    <div class="items__current" data-counter="" id="data-counter" name="productCounter">${productInfo.counter}</div>
+                                                    <div class="items__control minusBtn" data-action="minus">-</div>
+                                                    <div class="items__current" data-counter="" id="data-counter" id="productCounter">${productInfo.counter}</div>
                                                     <div class="items__control" data-action="plus">+</div>
                                                     </div>
 
                                                     <div class="price">
-                                                    <div class="price__currency" name="productPrice">${productInfo.price}</div>
+                                                    <div class="price__currency" id="productPrice">${productInfo.price}</div>
                                                      </div>
 
                                                      <div class="close">&#10006;</div>

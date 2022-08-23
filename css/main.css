@@ -75,6 +75,16 @@ a:hover {
     transform: rotate(-360deg);
 }
 
+.phone {
+    width: 25px;
+    transition: 0.3s ease;
+}
+
+.phone:hover {
+    transition: 0.3s ease;
+    transform: rotate(-360deg);
+}
+
 
 
 .form__buy {

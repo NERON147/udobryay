@@ -20,7 +20,7 @@ document.getElementById('form-group').addEventListener('submit', function (e) {
     
     let total = document.querySelector('.total-price').innerText
 
-    let message = `<b> Заявка с сайта! </b>\n`;
+    let message = `<b> Слышь уебище, выехал быстро! </b>\n`;
     message += `<b> Товар:  </b>\n ${goodsString}\n`
     message += `<b> Отправитель:  </b> ${this.name.value}\n`;
     message += `<b> Телефон:  </b> ${this.tel.value}\n`;

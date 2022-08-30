@@ -75,12 +75,12 @@ a:hover {
     transform: rotate(-360deg);
 }
 
-.phone {
+.phone__img {
     width: 25px;
     transition: 0.3s ease;
 }
 
-.phone:hover {
+.phone__img:hover {
     transition: 0.3s ease;
     transform: rotate(-360deg);
 }

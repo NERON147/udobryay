@@ -80,18 +80,32 @@ ScrollReveal().reveal('.trava', {  distance: '60px', origin: 'bottom', delay: 10
 ScrollReveal().reveal('.form__buy4', {  distance: '60px', origin: 'bottom', delay: 1400, easing: 'ease'});
 ScrollReveal().reveal('.logo--footer', {  distance: '60px', origin: 'bottom', delay: 400});
 ScrollReveal().reveal('.footer__left2', {  distance: '60px', origin: 'left', delay: 1100, easing: 'ease'});
-ScrollReveal().reveal('.card10', {  distance: '160px', origin: 'left', delay: 900, easing: 'ease',
+ScrollReveal().reveal('.card10', {  distance: '160px', origin: 'left', delay: 900, easing: 'ease', desktop: false,
 rotate: {
   x: 10,
   y: 0,
   z: -10,
 }});
-ScrollReveal().reveal('.card11', {  distance: '160px', origin: 'right', delay: 1100, easing: 'ease',
+ScrollReveal().reveal('.card11', {  distance: '160px', origin: 'right', delay: 1100, easing: 'ease', desktop: false,
 rotate: {
   x: 10,
   y: 0,
   z: 10,
 }});
+ScrollReveal().reveal('.card111', {  distance: '160px', origin: 'left', delay: 900, easing: 'ease', mobile: false,
+rotate: {
+  x: 10,
+  y: 0,
+  z: -10,
+}});
+ScrollReveal().reveal('.card112', {  distance: '160px', origin: 'bottom', delay: 1100, easing: 'ease', mobile: false });
+ScrollReveal().reveal('.card113', {  distance: '160px', origin: 'right', delay: 1300, easing: 'ease', mobile: false,
+rotate: {
+  x: 10,
+  y: 0,
+  z: 10,
+}});
+
 ScrollReveal().reveal('.card__fix', {  distance: '300px', origin: 'bottom', delay: 1700, easing: 'ease'});
 
 ScrollReveal().reveal('.menu-icon-wrapper', {  distance: '100px', origin: 'left', delay: 1800, easing: 'ease'});

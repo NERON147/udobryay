@@ -37,11 +37,11 @@ const swiper = new Swiper('.swiper', {
   });
 
   
-  ScrollReveal().reveal('.n1', {  distance: '60px', origin: 'left', delay: 300, easing: 'ease'});
-  ScrollReveal().reveal('.n2', {  distance: '60px', origin: 'left', delay: 400, easing: 'ease'});
-  ScrollReveal().reveal('.n3', {  distance: '60px', origin: 'left', delay: 500, easing: 'ease'});
-  ScrollReveal().reveal('.n4', {  distance: '60px', origin: 'left', delay: 600, easing: 'ease'});
-  ScrollReveal().reveal('.n5', {  distance: '60px', origin: 'left', delay: 700, easing: 'ease'});
+  ScrollReveal().reveal('.n1', {  distance: '60px', origin: 'left', delay: 300, easing: 'ease', mobile: false});
+  ScrollReveal().reveal('.n2', {  distance: '60px', origin: 'left', delay: 400, easing: 'ease', mobile: false});
+  ScrollReveal().reveal('.n3', {  distance: '60px', origin: 'left', delay: 500, easing: 'ease', mobile: false});
+  ScrollReveal().reveal('.n4', {  distance: '60px', origin: 'left', delay: 600, easing: 'ease', mobile: false});
+  ScrollReveal().reveal('.n5', {  distance: '60px', origin: 'left', delay: 700, easing: 'ease', mobile: false});
   ScrollReveal().reveal('.i', {  distance: '60px', origin: 'right', delay: 1000, easing: 'ease'});
   ScrollReveal().reveal('.i1', {  distance: '60px', origin: 'right', delay: 1100, easing: 'ease'});
   ScrollReveal().reveal('.phone', {  distance: '60px', origin: 'right', delay: 1300, easing: 'ease'});

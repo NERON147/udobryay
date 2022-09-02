@@ -28,7 +28,6 @@ document.getElementById('form-group').addEventListener('submit', function (e) {
     message += `<b> Когда доставить:  </b> ${this.time.value}\n`;
     message += `<b> Комментарий:  </b> ${this.comment.value}\n`;
     message += `<b> Общая стоимость:  </b>${total}\n`
-    console.log(total)
     
     
 

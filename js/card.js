@@ -20,8 +20,7 @@ window.addEventListener('click', function (event) {
             id: card.dataset.id,
             imgSrc: card.querySelector('.product-img').getAttribute('src'),
             title: card.querySelector('.item-title').innerText,
-            itemsInBox: card.querySelector('[data-items-in-box]').innerText,
-            price: card.querySelector('.price__currency').innerText,
+            price: card.querySelector('[data-price]').innerText,
             counter: card.querySelector('[data-counter]').innerText,
         }
 

@@ -26,12 +26,12 @@ const counterWraper =  event.target.closest('.counter-wrapper')
          
      }
 
-     if (event.target.closest('.cart-wrapper') && event.target.closest('.minusBtn')) {
-        // Удаляем товар из корзины
-        if(event.target.closest('.cart-wrapper').querySelector('.items__current').innerText === '1'){
-            event.target.closest('.cart-item').remove()
-        }
-     }
+    //  if (event.target.closest('.cart-wrapper') && event.target.closest('.minusBtn')) {
+    //     // Удаляем товар из корзины
+    //     if(event.target.closest('.cart-wrapper').querySelector('.items__current').innerText === '1'){
+    //         event.target.closest('.cart-item').remove()
+    //     }
+    //  }
 
      // Отображение статуса корзины Пустая / Полная
      

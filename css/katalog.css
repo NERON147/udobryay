@@ -202,7 +202,8 @@
 	margin-top: 20px;
 }
 
-.close { 
+.close {
+	font-size: 30px;
 	padding-left: 25px;
 	color: rgba(255, 0, 0, 0.493);
 	cursor: pointer;
@@ -252,15 +253,18 @@
 
 .weight00 {
 	padding: 10px 10px;
-	background-color: rgb(196, 236, 198);
-}
-
-.weight000 {
-	padding: 10px 10px;
 	border-top-right-radius: 50px;
 	border-bottom-right-radius: 50px;
 	background-color: rgb(196, 236, 198);
 }
+
+
+
+.min {
+	color: rgb(240, 85, 85);
+}
+
+
 
 
 @media (max-width: 770px) {

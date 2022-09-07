@@ -8,6 +8,7 @@ function calcCardPrice () {
     const cartDeliveryEl = document.querySelector('[data-cart-delivery]');
     const cartDeliveryEl2 = document.querySelector('[data-cart-delivery2]');
     const shopButton = document.querySelector('.bm')
+    const minText = document.querySelector('.min')
 
 
     let totalPrice = 0;
@@ -48,10 +49,14 @@ if (totalPrice > 0) {
 
 if (totalPrice > 1100) {
     shopButton.disabled = false
-    deliveryCost.innerText = 'Бесплатно'
+    minText.classList.add('none')
+    
+    
 }else {
     shopButton.disabled = true
-    deliveryCost.innerText = '250 ₽'
+    minText.classList.remove('none')
+
+    
 }
 
 

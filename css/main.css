@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-    background: #c4d6d689;
+   
     overflow: hidden;
 }
 
@@ -439,11 +439,11 @@ a:hover {
       }
 
       .pop__menu {
-        display: none;
-        
-        
+        display: none; 
       }
       
+      
+
     
 
 @media (max-width: 1000px) {

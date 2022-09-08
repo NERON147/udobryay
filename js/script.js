@@ -60,8 +60,8 @@ const swiper = new Swiper('.swiper', {
 }});
 ScrollReveal().reveal('.bgr', {  distance: '200px', origin: 'bottom',  delay: 1200, easing: 'ease',});
 ScrollReveal().reveal('.main__text2', {  distance: '60px', origin: 'bottom',  delay: 700, easing: 'ease' });
-ScrollReveal().reveal('.katalog2', {  distance: '60px', origin: 'left',delay: 900, easing: 'ease-in'});
-ScrollReveal().reveal('.about__text2', {  distance: '60px', origin: 'right', delay: 900, easing: 'ease-in'});
+ScrollReveal().reveal('.katalog2', {  distance: '500px', origin: 'left',delay: 900, easing: 'ease-in'});
+ScrollReveal().reveal('.about__text2', {  distance: '500px', origin: 'right', delay: 900, easing: 'ease-in'});
 ScrollReveal().reveal('.smotry2', {  distance: '60px', origin: 'top', delay: 800, easing: 'ease'});
 ScrollReveal().reveal('.slider2', {  distance: '60px', origin: 'bottom', delay: 1100, easing: 'ease'});
 ScrollReveal().reveal('.left__cont2', {  distance: '60px', origin: 'left', delay: 1100, easing: 'ease'});

@@ -10,7 +10,7 @@
 
 
 .product-img {
-	width: 265px;
+	width: auto;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -249,6 +249,7 @@
 	border-top-left-radius: 50px;
 	border-bottom-left-radius: 50px;
 	background-color: rgb(196, 236, 198);
+	font-weight: bold; 
 }
 
 .weight00 {
@@ -256,6 +257,7 @@
 	border-top-right-radius: 50px;
 	border-bottom-right-radius: 50px;
 	background-color: rgb(196, 236, 198);
+	font-weight: bold; 
 }
 
 
@@ -264,6 +266,12 @@
 	color: rgb(240, 85, 85);
 }
 
+.litr {
+	padding: 10px 10px;
+	border-radius: 10px;
+	background-color: rgb(196, 236, 198);
+	font-weight: bold; 
+}
 
 
 

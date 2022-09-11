@@ -64,9 +64,9 @@ ScrollReveal().reveal('.katalog2', {  distance: '60px', origin: 'left',delay: 90
 ScrollReveal().reveal('.about__text2', {  distance: '60px', origin: 'right', delay: 900, easing: 'ease-in'});
 ScrollReveal().reveal('.smotry2', {  distance: '60px', origin: 'top', delay: 800, easing: 'ease'});
 ScrollReveal().reveal('.slider2', {  distance: '60px', origin: 'bottom', delay: 1100, easing: 'ease'});
-ScrollReveal().reveal('.left__cont2', {  distance: '60px', origin: 'left', delay: 1100, easing: 'ease'});
+ScrollReveal().reveal('.left__cont2', {  distance: '60px', origin: 'left', delay: 1400, easing: 'ease'});
 // ScrollReveal().reveal('.right__cont2', {  distance: '60px', origin: 'right', delay: 1800, easing: 'ease'});
-ScrollReveal().reveal('.onas', {  distance: '60px', origin: 'right', delay: 1000, easing: 'ease'});
+ScrollReveal().reveal('.onas', {  distance: '60px', origin: 'right', delay: 1400, easing: 'ease'});
 ScrollReveal().reveal('.gazel', {  distance: '60px', origin: 'right', delay: 1000, easing: 'ease'});
 
 ScrollReveal().reveal('.ogorod', {  distance: '60px', origin: 'left', delay: 1100, easing: 'ease'});
@@ -77,6 +77,7 @@ rotate: {
   z: 100,
 }});
 ScrollReveal().reveal('.trava', {  distance: '60px', origin: 'bottom', delay: 1000, easing: 'ease-in'});
+ScrollReveal().reveal('.fon2', {  distance: '60px', origin: 'bottom', delay: 1000, easing: 'ease-in'});
 ScrollReveal().reveal('.form__buy4', {  distance: '60px', origin: 'bottom', delay: 1400, easing: 'ease'});
 ScrollReveal().reveal('.logo--footer', {  distance: '60px', origin: 'bottom', delay: 400});
 ScrollReveal().reveal('.footer__left2', {  distance: '60px', origin: 'left', delay: 1100, easing: 'ease'});

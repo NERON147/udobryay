@@ -302,6 +302,10 @@ a:hover {
     color: #e2e0e0;
 }
 
+.buy4 {
+    margin-top: 30px;
+}
+
 .card {
     box-shadow: 9px 5px 5px 1px rgba(9, 9, 9, 0.312);
     background: #E5E5E5;
@@ -367,7 +371,7 @@ a:hover {
 .c {
     color: rgb(200, 195, 195);
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 55px;
     
 }
 
@@ -442,6 +446,16 @@ a:hover {
       .pop__menu {
         display: none; 
       }
+
+      .fon2 {
+        display: none;
+        
+    }
+
+    .trava {
+        margin-top: 40px;
+    }
+
       
       
 
@@ -561,5 +575,13 @@ a:hover {
         width: 30%;
         height: auto;
         font-size: 10px;
+    }
+
+    .fon {
+        display: none;
+    }
+    .fon2 {
+        display: flex;
+        margin-top: 60px;
     }
 }

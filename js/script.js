@@ -57,6 +57,15 @@ const swiper = new Swiper('.swiper', {
     x: 1000,
     y: 50,
     z: 50,
+    mobile: false
+}});
+ScrollReveal().reveal('.mob__buy', {  distance: '60px', origin: 'right', delay: 1600, easing: 'ease',
+  rotate: {
+    x: 1000,
+    y: 50,
+    z: 50,
+    desktop: false
+    
 }});
 ScrollReveal().reveal('.bgr', {  distance: '200px', origin: 'bottom',  delay: 1200, easing: 'ease',});
 ScrollReveal().reveal('.main__text2', {  distance: '60px', origin: 'bottom',  delay: 700, easing: 'ease' });

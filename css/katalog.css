@@ -275,6 +275,7 @@
 
 
 
+
 @media (max-width: 770px) {
 	.kozina {
 		
@@ -292,6 +293,12 @@
 	.price__currency {
 		padding-top: 20px;
 	}
+
+	.item-title {
+	 margin-bottom: 30px;
+	}
+
+	
 }
 
 

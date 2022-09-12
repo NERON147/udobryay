@@ -99,13 +99,13 @@
 	line-height: 1;
 }
 
-.btn-outline-warning {
+.btn-outline-success {
     color: #00735A;
     border-color: #c6f1a1;
 	font-weight: 700;
 }
 
-.btn-outline-warning:hover {
+.btn-outline-success:hover {
     color: rgb(26, 77, 51);
     background-color: #c6f1a1;
     border-color: #c6f1a1;
@@ -120,7 +120,7 @@
 	display: flex;
 	align-items: flex-start;
 	padding-bottom: 15px;
-	border-bottom: 1px solid #dee2e6;
+	border-bottom: 1px solid #d4d9dd;
 	margin-bottom: 15px;
 }
 
@@ -275,6 +275,7 @@
 
 
 
+
 @media (max-width: 770px) {
 	.kozina {
 		
@@ -292,6 +293,12 @@
 	.price__currency {
 		padding-top: 20px;
 	}
+
+	.item-title {
+	 margin-bottom: 30px;
+	}
+
+	
 }
 
 

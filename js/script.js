@@ -46,10 +46,10 @@ const swiper = new Swiper('.swiper', {
   ScrollReveal().reveal('.i1', {  distance: '60px', origin: 'right', delay: 1100, easing: 'ease'});
   ScrollReveal().reveal('.phone', {  distance: '60px', origin: 'right', delay: 1300, easing: 'ease'});
   ScrollReveal().reveal('.logo2', {  distance: '60px', origin: 'top',  rotate: {
-    x: 200,
+    x: 150,
     y: 0,
-    z: 100,
-}, delay: 900,  easing: 'ease' });
+    z: 0,
+}, delay: 900,  easing: 'ease-in' });
   ScrollReveal().reveal('.shop', {  distance: '60px', origin: 'left',  delay: 1500 , easing: 'ease'});
   ScrollReveal().reveal('.shop__text', {  distance: '60px', origin: 'left',  delay: 1700 , easing: 'ease'});
   ScrollReveal().reveal('.buy3', {  distance: '60px', origin: 'right', delay: 1900, easing: 'ease',
@@ -57,6 +57,15 @@ const swiper = new Swiper('.swiper', {
     x: 1000,
     y: 50,
     z: 50,
+    mobile: false
+}});
+ScrollReveal().reveal('.mob__buy', {  distance: '60px', origin: 'right', delay: 1600, easing: 'ease',
+  rotate: {
+    x: 1000,
+    y: 50,
+    z: 50,
+    desktop: false
+    
 }});
 ScrollReveal().reveal('.bgr', {  distance: '200px', origin: 'bottom',  delay: 1200, easing: 'ease',});
 ScrollReveal().reveal('.main__text2', {  distance: '60px', origin: 'bottom',  delay: 700, easing: 'ease' });

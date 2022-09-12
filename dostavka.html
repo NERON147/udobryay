@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Dostavka ponosa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"
+    defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+  <script src="./js/script.js" defer></script>
+  <script src="./js/humb.js" defer></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<71d2d395-6cfb-486c-956d-faba9e5eab33>" type="text/javascript" defer></script>
+    <script src="./js/deliveryCalculator.js" type="text/javascript" defer></script>
+  <style>
+    #map {
+        width: 100%;
+        height: 500px;
+        padding: 0;
+        margin: 0;
+    }
+</style>
+  
+
+
+
+</head>
+
+<body>
+  <div class="popup" id="popup">
+    <div class="pop__menu">
+      <!--  eto pizdec)) -->
+      <div class="n1">
+        <a href="./index.html">ГЛАВНАЯ</a>
+      </div>
+      <div class="n2">
+        <a href="./katalog.html" class="active">КАТАЛОГ</a>
+      </div>
+      <div class="n3">
+        <a href="#watch_s">ВЗГЛЯНИТЕ</a>
+      </div>
+      <div class="n4">
+        <a href="#about_s">О НАС</a>
+      </div>
+      <div class="n5">
+        <a href="#dostavka_s">ДОСТАВКА</a>
+      </div>
+    </div>
+  </div>
+  <header class="header">
+    <div class="container">
+      <button class="nav__toogle" id="hamb">
+        <div class="menu-icon-wrapper">
+          <div class="menu-icon"></div>
+        </div>
+      </button>
+      <div class="nagat__pannel">
+        <nav class="navi navi2" id="navi">
+          <div class="n1">
+            <a href="./index.html">ГЛАВНАЯ</a>
+          </div>
+          <div class="n2">
+            <a href="./katalog.html" class="active">КАТАЛОГ</a>
+          </div>
+          <div class="n3">
+            <a href="#watch_s">ВЗГЛЯНИТЕ</a>
+          </div>
+          <div class="n4">
+            <a href="#about_s">О НАС</a>
+          </div>
+          <div class="n5">
+            <a href="#dostavka_s">ДОСТАВКА</a>
+          </div>
+        </nav>
+        <div class="logo2">
+          <img src="./img/header/logo.png" alt="" class="logo">
+        </div>
+        <div class="phone">
+          
+          <img src="./img/header/phone.png" alt="" class="phone__img">
+        
+        <span class="numb">
+          +7 (981) 163-13-74
+          </span>
+        </div>
+        <div class="img">
+          <div class="i">
+            <a href="https://vk.com/sadovod147" target="_blank"><img src="./img/header/VK.com-logo.svg" alt=""
+                class="vk"></a>
+          </div>
+          <div class="i1">
+            <a href="./katalog.html"><img src="./img/header/Group2.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="logo2 ">
+        <img src="./img/header/logo.png" alt="" class="logo5">
+      </div>
+    </div>
+
+   
+    <section>
+        <div class="container">
+          <div class="row">
+    
+            <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+            
+             
+  
+ 
+    
+    
+  <section>
+    <div class="container">
+      <div class="row">
+
+        <div class="form__buy2 form__buy4">
+          <p class="shop2">Приобретите наши удобрения сейчас!</p>
+          <div class="buy4">
+            <a href="./katalog.html" class="buy2">Купить</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container gx-5 dostavka" id="dostavka_s">
+      <div class="row">
+      <div class="main__text main__text2 pb-5">Где нас найти? </div>
+  
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaf509735b583e927495c60a6ef9284cd6ed885f6a0292cc5d0a663de4274f9ad&amp;width=1280&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+
+      </div>
+    </div>
+  </section>
+
+ 
+  <footer>
+    <div class="footer">
+      <div class="row">
+        <div class="footer__text">
+          <div class="footer__left footer__left2">
+            Если Вас заинтересовала наша продукция, можете ознакомиться с ней в <a href="./katalog.html"
+              class="katalog__footer"><span>каталоге</span></a>, либо напишите
+            нам на e-mail: <span type="email"> ponos@mail.com.</span>
+          </div>
+
+          <div class="footer__center">
+
+            <div class="img__footer">
+              <div class="i">
+                <a href="https://vk.com/sadovod147" target="_blank"><img src="./img/header/VK.com-logo.svg" alt="" class="vk"></a>
+              </div>
+              <div class="i1">
+                <button><img src="./img/header/Group2.svg" alt=""></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__right">
+            <span class="c logo2">ⓒ</span>
+            <div class="logo__footer logo2">
+              <img src="./img/header/logo.png" alt="" class="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://unpkg.com/scrollreveal"></script>
+   
+</body>
+
+</html>

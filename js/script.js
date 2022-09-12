@@ -46,10 +46,10 @@ const swiper = new Swiper('.swiper', {
   ScrollReveal().reveal('.i1', {  distance: '60px', origin: 'right', delay: 1100, easing: 'ease'});
   ScrollReveal().reveal('.phone', {  distance: '60px', origin: 'right', delay: 1300, easing: 'ease'});
   ScrollReveal().reveal('.logo2', {  distance: '60px', origin: 'top',  rotate: {
-    x: 200,
+    x: 150,
     y: 0,
-    z: 100,
-}, delay: 900,  easing: 'ease' });
+    z: 0,
+}, delay: 900,  easing: 'ease-in' });
   ScrollReveal().reveal('.shop', {  distance: '60px', origin: 'left',  delay: 1500 , easing: 'ease'});
   ScrollReveal().reveal('.shop__text', {  distance: '60px', origin: 'left',  delay: 1700 , easing: 'ease'});
   ScrollReveal().reveal('.buy3', {  distance: '60px', origin: 'right', delay: 1900, easing: 'ease',

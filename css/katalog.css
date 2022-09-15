@@ -281,8 +281,9 @@
 	font-weight: bold; 
 }
 
-
-
+.rounded {
+	width: 30px;
+}
 
 @media (max-width: 770px) {
 	.kozina {
@@ -304,6 +305,10 @@
 
 	.item-title {
 	 margin-bottom: 30px;
+	}
+	
+	.toast-container{
+		display: none;
 	}
 
 	

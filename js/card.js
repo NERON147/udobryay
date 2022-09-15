@@ -14,7 +14,13 @@ window.addEventListener('click', function (event) {
        
         // Находим карточку с товаром, внутри которой был совершен клик
         const card = event.target.closest('.card');
-
+        
+        //Выводим сообщение 
+        const toastLiveExample = document.getElementById('liveToast')
+            const toast = new bootstrap.Toast(toastLiveExample)
+            toast.show()
+          
+        
         //Собираем данные
         const productInfo = {
             id: card.dataset.id,

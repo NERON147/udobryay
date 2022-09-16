@@ -14,6 +14,11 @@
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+	transition: all .2s ease-in-out;
+}
+
+.product-img:hover {
+	transform: scale(1.2);
 }
 
 .item-title {
@@ -103,12 +108,15 @@
     color: #00735A;
     border-color: #c6f1a1;
 	font-weight: 700;
+	transition: all .2s ease-in-out;
 }
+
 
 .btn-outline-success:hover {
     color: rgb(26, 77, 51);
     background-color: #c6f1a1;
     border-color: #c6f1a1;
+	transform: scale(1.2);
 }
 
 .card img {
@@ -273,8 +281,9 @@
 	font-weight: bold; 
 }
 
-
-
+.rounded {
+	width: 30px;
+}
 
 @media (max-width: 770px) {
 	.kozina {
@@ -297,7 +306,18 @@
 	.item-title {
 	 margin-bottom: 30px;
 	}
+	
+	.toast-container{
+		width: 80%;
+	}
 
+	.kostyl {
+		margin-bottom: 50px;
+	}
+
+	.card {
+		height: 500px;
+	}
 	
 }
 

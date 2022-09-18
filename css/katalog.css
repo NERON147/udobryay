@@ -318,6 +318,10 @@
 	.card {
 		height: 500px;
 	}
+
+	.pushcart {
+		height: auto;
+	}
 	
 }
 
